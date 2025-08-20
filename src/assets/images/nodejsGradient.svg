@@ -1,0 +1,17 @@
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Node.js">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#60d394"/>
+      <stop offset="100%" stop-color="#00b894"/>
+    </linearGradient>
+    <linearGradient id="g2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2ecc71"/>
+      <stop offset="100%" stop-color="#27ae60"/>
+    </linearGradient>
+  </defs>
+  <rect rx="24" ry="24" width="128" height="128" fill="url(#g)"/>
+  <g transform="translate(18,22)">
+    <path fill="#ffffff" d="M45.2 0l34.4 19.9v39.8L45.2 79.6 10.8 59.7V19.9L45.2 0zm0 8.2L18.5 23.6v32.4l26.7 15.4 26.7-15.4V23.6L45.2 8.2z" opacity=".9"/>
+    <path fill="url(#g2)" d="M45.3 25.5c6.8 0 12.3 5.6 12.3 12.5 0 7-5.5 12.6-12.3 12.6-3.4 0-6.5-1.4-8.7-3.7v9.2l-8-4.6V30.1l8 4.6v.2c2.2-2.3 5.3-3.7 8.7-3.7z"/>
+  </g>
+</svg>

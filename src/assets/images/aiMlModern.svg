@@ -1,0 +1,47 @@
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="AI & ML">
+  <defs>
+    <linearGradient id="aiGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7f00ff"/>
+      <stop offset="100%" stop-color="#e100ff"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00d2ff"/>
+      <stop offset="100%" stop-color="#3a7bd5"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect rx="24" ry="24" width="128" height="128" fill="url(#aiGrad)"/>
+  
+  <!-- Neural Network Nodes -->
+  <g transform="translate(20,20)">
+    <!-- Input Layer -->
+    <circle cx="16" cy="44" r="10" fill="url(#accentGrad)" opacity="0.9"/>
+    <circle cx="16" cy="64" r="10" fill="url(#accentGrad)" opacity="0.9"/>
+    
+    <!-- Hidden Layer -->
+    <circle cx="44" cy="32" r="10" fill="#ffffff" opacity="0.95"/>
+    <circle cx="44" cy="54" r="10" fill="#ffffff" opacity="0.95"/>
+    <circle cx="44" cy="76" r="10" fill="#ffffff" opacity="0.95"/>
+    
+    <!-- Output Layer -->
+    <circle cx="72" cy="54" r="10" fill="url(#accentGrad)" opacity="0.9"/>
+    
+    <!-- Connections -->
+    <g stroke="#ffffff" stroke-width="3" opacity="0.7">
+      <!-- Input to Hidden -->
+      <path d="M26 44 L34 32"/>
+      <path d="M26 44 L34 54"/>
+      <path d="M26 64 L34 54"/>
+      <path d="M26 64 L34 76"/>
+      
+      <!-- Hidden to Output -->
+      <path d="M54 32 L62 54"/>
+      <path d="M54 54 L62 54"/>
+      <path d="M54 76 L62 54"/>
+    </g>
+  </g>
+  
+  <!-- AI Text -->
+  <text x="64" y="110" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="14" font-weight="bold">AI</text>
+</svg>

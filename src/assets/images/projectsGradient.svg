@@ -1,0 +1,14 @@
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Projects">
+  <defs>
+    <linearGradient id="pj" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#396afc"/>
+      <stop offset="100%" stop-color="#2948ff"/>
+    </linearGradient>
+  </defs>
+  <rect rx="24" ry="24" width="128" height="128" fill="url(#pj)"/>
+  <g fill="#fff" transform="translate(16,24)">
+    <rect x="0" y="0" width="96" height="16" rx="8" opacity=".95"/>
+    <rect x="0" y="26" width="96" height="16" rx="8" opacity=".85"/>
+    <rect x="0" y="52" width="96" height="16" rx="8" opacity=".75"/>
+  </g>
+</svg>

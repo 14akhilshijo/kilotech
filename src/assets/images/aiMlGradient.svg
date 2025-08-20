@@ -1,0 +1,30 @@
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="AI & ML">
+  <defs>
+    <linearGradient id="ai" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7f00ff"/>
+      <stop offset="100%" stop-color="#e100ff"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00d2ff"/>
+      <stop offset="100%" stop-color="#3a7bd5"/>
+    </linearGradient>
+  </defs>
+  <rect rx="24" ry="24" width="128" height="128" fill="url(#ai)"/>
+  <!-- Chip body -->
+  <g transform="translate(24,24)">
+    <rect x="8" y="8" width="64" height="64" rx="12" ry="12" fill="#ffffff"/>
+    <!-- pins -->
+    <g fill="#ffffff" opacity="0.9">
+      <rect x="36" y="0" width="8" height="8" rx="2"/>
+      <rect x="36" y="80" width="8" height="8" rx="2"/>
+      <rect x="0" y="36" width="8" height="8" rx="2"/>
+      <rect x="80" y="36" width="8" height="8" rx="2"/>
+    </g>
+    <!-- AI letters -->
+    <g fill="url(#accent)" transform="translate(20,20)">
+      <path d="M8 32 L14 16 L20 32 L18 32 L16.5 28 L11.5 28 L10 32 Z M12.5 24 L15.5 24 L14 20 Z"/>
+      <rect x="26" y="16" width="4" height="16" rx="2"/>
+      <rect x="26" y="16" width="12" height="4" rx="2"/>
+    </g>
+  </g>
+</svg>

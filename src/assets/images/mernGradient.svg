@@ -1,0 +1,53 @@
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="MERN Stack">
+  <defs>
+    <linearGradient id="mernGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff8c00"/>
+      <stop offset="100%" stop-color="#ff4500"/>
+    </linearGradient>
+    <linearGradient id="mongoGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4db33d"/>
+      <stop offset="100%" stop-color="#3fa037"/>
+    </linearGradient>
+    <linearGradient id="expressGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#000000"/>
+      <stop offset="100%" stop-color="#333333"/>
+    </linearGradient>
+    <linearGradient id="reactGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#61dafb"/>
+      <stop offset="100%" stop-color="#21d4fd"/>
+    </linearGradient>
+    <linearGradient id="nodeGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#68a063"/>
+      <stop offset="100%" stop-color="#3c873a"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect rx="24" ry="24" width="128" height="128" fill="url(#mernGrad)"/>
+  
+  <!-- MERN Stack Icons -->
+  <g transform="translate(16,16)">
+    <!-- MongoDB (M) -->
+    <circle cx="24" cy="32" r="12" fill="url(#mongoGrad)"/>
+    <text x="24" y="36" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="12" font-weight="bold">M</text>
+    
+    <!-- Express (E) -->
+    <circle cx="56" cy="32" r="12" fill="url(#expressGrad)"/>
+    <text x="56" y="36" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="12" font-weight="bold">E</text>
+    
+    <!-- React (R) -->
+    <circle cx="88" cy="32" r="12" fill="url(#reactGrad)"/>
+    <text x="88" y="36" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="12" font-weight="bold">R</text>
+    
+    <!-- Node (N) -->
+    <circle cx="56" cy="64" r="12" fill="url(#nodeGrad)"/>
+    <text x="56" y="68" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="12" font-weight="bold">N</text>
+    
+    <!-- Connection Lines -->
+    <g stroke="#ffffff" stroke-width="2" opacity="0.6">
+      <path d="M36 32 L44 32"/>
+      <path d="M68 32 L76 32"/>
+      <path d="M56 44 L56 52"/>
+    </g>
+  </g>
+</svg>
