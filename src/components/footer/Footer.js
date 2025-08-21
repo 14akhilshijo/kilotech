@@ -12,9 +12,6 @@ export default function Footer() {
         <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
           {emoji("© KILOTECH – Led by Akhil Shijo")}
         </p>
-        <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
-          Built with React. Theme based on developerFolio.
-        </p>
       </div>
     </Fade>
   );
