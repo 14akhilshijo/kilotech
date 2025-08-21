@@ -376,8 +376,7 @@ const resumeSection = {
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle:
-    "Owner: Akhil Shijo — Discuss a project or training for your team.",
+  subtitle: "Owner: Akhil Shijo — Discuss a project or training for your team.",
   number: "+91 8137864105",
   email_address: "mrakhilshijo@gmail.com"
 };
